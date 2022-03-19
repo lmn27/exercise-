@@ -99,18 +99,21 @@
      
 # import random
 # print(random.randint(0,100))
+
 # try:
 #     a=int(input("1-ci eded daxil edin: "))
 #     b=int(input("2-ci eded daxil edin:"))
 #     print("a/b=",a/b)
 # except ValueError:
 #      print( "sadece reqem yazin"  )
+
 # try:
 #     a=int(input("1-ci eded daxil edin: "))
 #     b=int(input("2-ci eded daxil edin:"))
 #     print("a/b=",a/b)
 # except ZeroDivisionError:
 #      print( "ededi 0-a bolmek olmaz"  )
+
 # try:
 #     a=int(input("1-ci eded daxil edin: "))
 #     b=int(input("2-ci eded daxil edin:"))
@@ -119,20 +122,6 @@
 #      print( "ededi 0-a bolmek olmaz"  )
 # except ValueError:
 #      print( "sadece reqem yazin"  )
-
-# print("proqramdan cixmaq ucun "x" daxil edin")
-# while input=='x':
-#     try:
-#         a=int(input("1-ci eded daxil edin: "))
-#         b=int(input("2-ci eded daxil edin:"))
-#         print("a/b=",a/b)
-#    except ZeroDivisionError:
-#         print( "ededi 0-a bolmek olmaz"  )
-#    except ValueError:
-#         print( "sadece reqem yazin"  )
-     
-# print("proqramdan cixmaq ucun "x"  ")
-
 
 try:
     a=int(input("1-ci eded daxil edin: "))
