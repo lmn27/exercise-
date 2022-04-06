@@ -1,23 +1,45 @@
 
-# print('Hello') # stringler hem "" hem '' hem  """ hem de ''' arasinda yazila biler
-# print("Hello")
-# a='simvol'
-# b="Leman"
-# c="""hello"""
-# d='''Happy'''
-# print(a)
-# print(b)
-# print(c)
-# print(d)
-# print(a[0])
-# print(a[1])
-# print(a[2])
-# print(a[3])
-# print(a[4])
-# print(a[5])
-# print(a[-1])
-# print(a[-2])
-# print(len(a))
+# stringler hem "" hem '' hem  """ hem de ''' arasinda yazila biler
+print('Hello') 
+print("Hello")
+
+a="Leman"
+b='Python'
+c="""Hello"""
+d='''Happy'''
+print(a)
+print(b)
+print(c)
+print(d)
+
+a='string'
+print(a)
+print(a[0],a[1])
+print(a[1])
+print(a[2])
+print(a[3])
+print(a[4])
+print(a[5])
+print(a[-1])
+print(a[-2])
+print("lenght=",len(a))
+print("s" in a)
+print('s' not in a)
+for x in "Leman":
+     print(x)
+
+
+a="Hello World"
+print(a)
+print(a[2:])
+print(a[5:])
+print(a[6:])
+print(a[:2])
+print(a[-2:])
+print(a[:-3])
+
+#print(a[1:4])
+
 # a='Salam dunya'
 # print(a[3:])
 # print(a[:3])
