@@ -144,60 +144,29 @@ print(a+b)
 print(a+ " " +b)
 print(a*2)
 
+ad=input("Adinizi daxil edin: ")
+soyad=input("Soyadinizi daxil edin: ")
+print("xos gelmisen {1} {0} ".format(ad,soyad))
+
+
+str=input()
+print(str[:2]+str[-2:])
+print(str[0:2]+str[len(str)-2:len(str)]) 
+
+#1-ci yol
+str1=input() 
+str2=input()
+a=str1
+b=str2
+a=str1[:-1]+str2[-1:]
+b=str2[:-1]+str1[-1:]
+print(a,b)
+#2-ci yol
+str1,str2=str1[:-1]+str2[-1:],str2[:-1]+str1[-1:]
+print(str1,str2)
 
 
 
-# ad=input("Adinizi daxil edin: ")
-# soyad=input("Soyadinizi daxil edin: ")
-# print("xos gelmisen {} {} ".format(ad,soyad))
-# a="Leman"
-# print(a[:2])
-# b=len(a)
-# c=a[b-2:]
-# print(c)
-# a='Leman'
-# b='Nermin'
-# c=a
-# d=b
-# a=a[:-1]+b[-1:]
-# b=d[:-1]+c[-1:]
-# print(a)
-# print(b)
-# for i in range(10):
-#      print(i)
-     
-# import random
-# print(random.randint(0,100))
-
-# try:
-#     a=int(input("1-ci eded daxil edin: "))
-#     b=int(input("2-ci eded daxil edin:"))
-#     print("a/b=",a/b)
-# except ValueError:
-#      print( "sadece reqem yazin"  )
-
-# try:
-#     a=int(input("1-ci eded daxil edin: "))
-#     b=int(input("2-ci eded daxil edin:"))
-#     print("a/b=",a/b)
-# except ZeroDivisionError:
-#      print( "ededi 0-a bolmek olmaz"  )
-
-# try:
-#     a=int(input("1-ci eded daxil edin: "))
-#     b=int(input("2-ci eded daxil edin:"))
-#     print("a/b=",a/b)
-# except ZeroDivisionError:
-#      print( "ededi 0-a bolmek olmaz"  )
-# except ValueError:
-#      print( "sadece reqem yazin"  )
-
-try:
-    a=int(input("1-ci eded daxil edin: "))
-    b=int(input("2-ci eded daxil edin:"))
-    print("a/b=",a/b)
-except ValueError as xeta:
-     print( "orginal xeta",xeta  )
       
 
 
